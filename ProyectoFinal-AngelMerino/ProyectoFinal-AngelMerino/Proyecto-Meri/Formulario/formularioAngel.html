@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="Author" content="AngelMerinoLuengo">
+<meta name="Description" content="Aquí tenemos mi formulario que se utilizara para el examen de TIC">
+<meta name="Keywords" content="formulario">
+<title> Formulario Inscripcion</title>
+<script>
+    alert("¿Estas seguro se eso? Si haces click en borrar,todo se borrara.")
+</script>
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Akaya+Telivigala&display=swap" rel="stylesheet">
+</head>
+<body background="imagen/imagen.jpg">
+    <header style="background-color: rgb(0, 108, 250); border:20px outset rgb(226, 226, 240)">
+    <h1>
+    Formulario de Inscripcion
+    </h1>
+    <h2>
+        Formulario de datos personales
+    </h2>
+    <header>
+            <div style="background-color: rgb(231, 142, 8); border:15px outset rgb(241, 255, 114)">
+                <legend>
+                    DATOS PERSONALES
+                </legend>
+                <form>
+                <fieldset>
+                    <label for="fname">Nombre:</label>
+                    <input type="text" id="fname" name="fname"><br><br>
+                    <label for="lname">Apellidos:</label>
+                    <input type="text" id="lname" name="lname"><br><br>
+                    <label for="email">Correo electrónico:</label>
+                    <input type="email" id="email" name="email"><br><br>
+                    <label for="pwd">Contraseña:</label>
+                    <input type="password" id="pwd" name="pwd" minlength="8"><br><br>
+                    <label for="birthday">Fecha de nacimiento:</label>
+                    <input type="date" id="birthday" name="birthday"><br><br>
+                    <script>
+                          <input type="reset" value="Borrar">
+                     </script>
+                     <input type="reset" value="Borrar">
+                     </script>
+                     <input type="submit" value="Enviar">
+                 </fieldset>
+                </form>
+            </div>
+    </header>
+            <div style="background-color: rgb(6, 224, 253); border:15px outset rgb(88, 248, 195)">
+                <legend>
+                </form>  
+                <form oninput="x.value=parseInt(a.value)+parseInt(b.value)">
+                    <input type="range" id="a" value="50">
+                    +<input type="number" id="b" value="25">
+                    =<output name="x" for="a b"></output>
+                    <input type="reset" value="Borrar">
+                    <input type="submit" value="Enviar">
+                </form> 
+                <form action="/action_page.php">
+                    <label for="sexo">Sexo:</label>
+                    <select id="sexos">
+                    <option value="Hombre">Hombre</option>
+                    <option value="Mujer">Mujer</option>
+                    <option value="Otros">Otros</option>
+                    <option value="Prefiero no decirlo">Prefiero no decirlo</option>
+                    </select>
+                    </form>
+                </legend>
+             </div>
+                    <input type="reset" value="Reset">
+                     <input type="submit" value="Submit">
+</body>
+</html>
